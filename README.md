@@ -27,6 +27,7 @@ Follow the steps outlined in this repository to set up and implement fanout even
 2. Create SQS Queues: Set up multiple SQS queues that will receive the notifications from the SNS topic.
 3. Subscribe Queues to SNS Topic: Link the SQS queues to the SNS topic to receive messages automatically.
 4. Send Notifications: Test the setup by publishing a message to the SNS topic when an order is placed.
+![message received on endpoint](https://github.com/user-attachments/assets/d8e40943-6850-43fa-b0ca-b41d926ae4e8)
 
 ---
 ## Requirements
